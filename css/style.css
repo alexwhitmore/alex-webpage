@@ -266,8 +266,8 @@ header {
 
 /* Animation */
 .anim-typewriter {
-  animation: typewriter 2s steps(44) 1s 1 normal both,
-    blinkTextCursor 700ms steps(44) infinite normal;
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms steps(44) infinite normal;
 
   font-weight: var(--fw-bold);
 }
