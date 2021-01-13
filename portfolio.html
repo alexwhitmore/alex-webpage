@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alex Whitmore</title>
+
+    <!-- Normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+
+    <!-- Font Aweomse Icons -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <!-- Linking To CSS Page -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@300;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <!-- Header logo, left side -->
+      <div class="hello-world">
+        <!-- <img src="#" alt="Header Logo" /> -->
+        <p class="line-1 anim-typewriter">&lthello world&gt</p>
+      </div>
+      <!-- Menu/nav button -->
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <!--  double underscore is a sub-compenent of nav-->
+        <ul class="nav__list">
+          <!--  Item One -->
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Home</a>
+          </li>
+
+          <!--  Item Two -->
+          <li class="nav__item">
+            <a href="index.html#services" class="nav__link">Services</a>
+          </li>
+
+          <!--  Item Three -->
+          <li class="nav__item">
+            <a href="index.html#about" class="nav__link">About Me</a>
+          </li>
+
+          <!--  Item Four -->
+          <li class="nav__item">
+            <a href="index.html#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction Section -->
+    <section class="intro" id="home">
+      <!-- Double hyphen class === modifyer for main class -->
+      <h1 class="section__title section__title--intro">
+        The title <strong>of my project</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">Coming soon!</p>
+      <img
+        src="images/intro-photo.jpg"
+        alt="Project Screenshot"
+        class="intro__img"
+      />
+    </section>
+
+    <div class="portfolio-item-individual">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl
+        eros, pulvinar facilisis justo mollis, auctor consequat urna. Morbi a
+        bibendum metus. Donec scelerisque sollicitudin enim eu venenatis. Duis
+        tincidunt laoreet ex, in pretium orci vestibulum eget.
+      </p>
+      <img src="images/placeholder.png" alt="" />
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl
+        eros, pulvinar facilisis justo mollis, auctor consequat urna. Morbi a
+        bibendum metus. Donec scelerisque sollicitudin enim eu venenatis. Duis
+        tincidunt laoreet ex, in pretium orci vestibulum eget.
+      </p>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer" id="contact">
+      <a href="mailto:heyimalexw@gmail.com" class="footer__link"
+        >heyimalexw@gmail.com</a
+      >
+
+      <!-- Social  Media Section -->
+      <ul class="social-list">
+        <!-- Social Link One, LinkedIn -->
+        <li class="social-list__item">
+          <a
+            class="social-list__item"
+            href="https://www.linkedin.com/in/alex-whitmore-167896153/"
+          >
+            <i class="fab fa-linkedin-in"></i
+          ></a>
+        </li>
+
+        <!-- Social Link Two, Github -->
+        <li class="social-list__item">
+          <a class="social-list__item" href="https://github.com/alexwhitmore"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+
+        <!-- Social Link Three, Twitter -->
+        <li class="social-list__item">
+          <a
+            class="social-list__item"
+            href="https://twitter.com/theAlexWhitmore"
+          >
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <!-- Top Scroll Button -->
+    <button class="scrollToTopBtn">
+      <i class="fas fa-angle-double-up fa-2x"></i>
+    </button>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
