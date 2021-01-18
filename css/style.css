@@ -578,3 +578,7 @@ li {
   margin-left: auto;
   margin-right: auto;
 }
+
+.library-img {
+  border: 1px solid black;
+}
