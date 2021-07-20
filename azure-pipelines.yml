@@ -10,6 +10,10 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
+- task: PowerShell@2
+  inputs:
+    filePath: './replace.ps1'
+    
 - task: NodeTool@0
   inputs:
     versionSpec: '10.x'
