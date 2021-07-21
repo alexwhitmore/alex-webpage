@@ -6,20 +6,8 @@
 trigger:
 - main
 
-variables:
-- group: ProjectEnvironmentVersions
-- name: versions
-  value: $[versions.dev]
-
 pool:
   vmImage: ubuntu-latest
-
-steps:
-
-- task: PowerShell@2
-  inputs:
-    targetType: 'inline'
-    script: '(Get-Content ./dashboardTable.md).replace(''$[versions.dev]'', ''0.0.2'') | Set-Content ''./dashboardTable.md'''
 
 - task: NodeTool@0
   inputs:
